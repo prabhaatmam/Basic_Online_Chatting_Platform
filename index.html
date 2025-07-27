@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script> 
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-vfkgfu7I/qUj2WmHpk4VzBx4L6dk/WStbWiorsDovX7PvgsVezsRUi/+/7hWhEZ3i" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+  <title>Hyzen</title>
+  <nav>
+    <img class="hyzen_logo" src="pics/hyzen_logo.jpg" height="80px;">
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="https://forms.gle/6421UxmCoEtQiWSr6">Contact</a></li>
+      <li><a href="https://forms.gle/iwFkJGbJrAoCoMg29">Feedback</a></li>
+      <li><div class="search-container">
+        <input type="text" id="search" placeholder="Search...">
+        <label for="search" class="search-icon">🔍</label>
+      </div></li>
+    </ul>
+  </nav>
+</head>
+<body>
+  
+  <div class="grid-container">
+    <div class="grid-item grid-item-1">
+      <img src="pics/Profile.png" alt="Image" style="height: 100px;">
+      <div class="text-container">
+        <span class="name">User123</span>
+        <span class="line">Contact no.</span>
+        <span class="line">8178416915</span>
+        <span class="line">Email id</span>
+        <span class="line">User123@gmail.com</span>
+        <span class="line">Bio</span>
+        <span class="line">Hello world !!!!! </span>
+        <span class="line">Help</span>
+        <span class="line">www.hyzen.com</span>
+      </div>
+    </div>
+    <div class="grid-item grid-item-2"><div class="chat-container">
+      <div class="chat-header">Chat</div>
+      <div class="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" placeholder="Type your message here...">
+        <button>Send</button>
+      </div>
+    </div>
+  </div>
+    <div class="grid-item grid-item-3">
+     <div class="stack-item stack-item-1">
+      <img src="pics/image 1.png" alt="Image 1">
+      <p>Prabhat</p>
+    </div>
+    <div class="stack-item stack-item-2">
+      <img src="pics/image 2.png" alt="Image 2">
+      <p>Nikhil</p>
+    </div>
+    <div class="stack-item stack-item-3">
+      <img src="pics/image 3.png" alt="Image 3">
+      <p>Abhishek</p>
+    </div>
+    <div class="stack-item stack-item-4">
+      <img src="pics/image 4.png" alt="Image 4">
+      <p>Mohit</p>
+    </div>
+    <div class="stack-item stack-item-5">
+      <img src="pics/image 5.png" alt="Image 5">
+      <p>Manish</p>
+    </div>
+  </div>
+  <script>
+    
+    var modal = document.getElementById('id01');
+    
+   
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+  
+</body>
+</html>
